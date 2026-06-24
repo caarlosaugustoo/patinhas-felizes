@@ -77,7 +77,6 @@ https://caarlosaugustoo.github.io/Sistema-de-adocao-e-resgate-de-animais/
 ## 📸 Demonstração
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ec5407a4-cd8d-4024-882a-3dfbe8e90886" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9230b5f7-2deb-40c4-99a6-96d8eb4930bb" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6d3b8b2e-2c14-4aab-ba93-e9b9e4ec5e62" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fdad9db1-08de-476f-8ac7-e8555b5158b3" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/63ffaa84-85da-41ea-a4da-9ba3bb51efbe" />
 
