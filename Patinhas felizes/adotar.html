@@ -1,164 +1,184 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
 
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patinhas Felizes | Formulário de Adoção</title>
+    <title>Formulário de Adoção | Patinhas Felizes</title>
 
-    <link rel="stylesheet" href="style.css">
+```
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+```
+
 </head>
-
 <body>
 
-    <header class="cabecalho-principal">
+<header>
+    <div class="container navbar">
 
-        <div class="logo">
-            🐾 Patinhas Felizes
-        </div>
+```
+    <a href="index.html" class="logo">
+        🐾 Patinhas Felizes
+    </a>
 
-        <nav class="menu-navegacao">
-            <a href="index.html">Início</a>
-            <a href="galeria.html">Quero Adotar</a>
-            <a href="pet.html">Perfil do Pet</a>
-            <a href="adotar.html" class="ativo">Formulário</a>
-            <a href="ajudar.html">Como Ajudar</a>
-        </nav>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="galeria.html">Pets</a></li>
+            <li><a href="adotar.html">Adotar</a></li>
+            <li><a href="ajudar.html">Ajudar</a></li>
+        </ul>
+    </nav>
 
-    </header>
+</div>
+```
 
-    <main>
+</header>
 
-        <section class="topo-pagina">
+<main>
 
-            <h1>Formulário de Adoção</h1>
+<section>
 
-            <p>
-                Preencha as informações abaixo para iniciar o processo de adoção.
-            </p>
+```
+<div class="container">
 
-        </section>
+    <div class="section-title">
 
-        <form class="container-formulario">
-
-            <fieldset>
-
-                <legend><strong>Dados Pessoais</strong></legend>
-
-                <div class="grupo-campo">
-                    <label for="nome">Nome Completo</label>
-                    <input type="text" id="nome" required>
-                </div>
-
-                <div class="grupo-campo">
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" required>
-                </div>
-
-                <div class="grupo-campo">
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" required>
-                </div>
-
-            </fieldset>
-
-            <fieldset>
-
-                <legend><strong>Endereço</strong></legend>
-
-                <div class="grupo-campo">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" required>
-                </div>
-
-                <div class="grupo-campo">
-                    <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" required>
-                </div>
-
-                <div class="grupo-campo">
-                    <label for="endereco">Endereço</label>
-                    <input type="text" id="endereco" required>
-                </div>
-
-            </fieldset>
-
-            <fieldset>
-
-                <legend><strong>Informações da Adoção</strong></legend>
-
-                <div class="grupo-campo">
-
-                    <label for="moradia">Tipo de Moradia</label>
-
-                    <select id="moradia">
-
-                        <option>Casa</option>
-                        <option>Apartamento</option>
-
-                    </select>
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="animais">
-
-                        Já possui outros animais?
-
-                    </label>
-
-                    <select id="animais">
-
-                        <option>Sim</option>
-                        <option>Não</option>
-
-                    </select>
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="motivo">
-
-                        Por que deseja adotar?
-
-                    </label>
-
-                    <textarea id="motivo" rows="5" required></textarea>
-
-                </div>
-
-            </fieldset>
-
-            <button class="botao-enviar">
-
-                Enviar Solicitação
-
-            </button>
-
-        </form>
-
-    </main>
-
-    <footer class="rodape-principal">
+        <h2>Formulário de Adoção</h2>
 
         <p>
-            © 2026 Patinhas Felizes - Todos os direitos reservados.
+            Preencha as informações abaixo para iniciar o processo de adoção responsável.
         </p>
 
-        <div class="links-rodape">
+    </div>
 
-            <a href="index.html">Início</a> |
+    <form>
 
-            <a href="galeria.html">Galeria</a> |
+        <div class="grid grid-2">
 
-            <a href="adotar.html">Adotar</a>
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" required>
+            </div>
 
         </div>
 
-    </footer>
+        <div class="form-group">
+            <label for="endereco">Endereço Completo</label>
+            <input type="text" id="endereco" required>
+        </div>
+
+        <div class="grid grid-2">
+
+            <div class="form-group">
+
+                <label for="moradia">
+                    Tipo de Moradia
+                </label>
+
+                <select id="moradia">
+
+                    <option>Casa</option>
+                    <option>Apartamento</option>
+                    <option>Sítio</option>
+                    <option>Chácara</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="animais">
+                    Possui outros animais?
+                </label>
+
+                <select id="animais">
+
+                    <option>Não</option>
+                    <option>Sim</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="motivo">
+                Por que deseja adotar?
+            </label>
+
+            <textarea
+                id="motivo"
+                rows="6"
+                required>
+            </textarea>
+
+        </div>
+
+        <button type="submit" class="btn">
+            Enviar Solicitação
+        </button>
+
+    </form>
+
+</div>
+```
+
+</section>
+
+</main>
+
+<footer>
+
+```
+<div class="container footer-content">
+
+    <div>
+
+        <h3>🐾 Patinhas Felizes</h3>
+
+        <p>
+            Promovendo adoções responsáveis e transformando vidas.
+        </p>
+
+    </div>
+
+    <div class="footer-links">
+
+        <a href="index.html">Início</a>
+        <a href="galeria.html">Pets</a>
+        <a href="adotar.html">Adotar</a>
+        <a href="ajudar.html">Ajudar</a>
+
+    </div>
+
+</div>
+```
+
+</footer>
 
 </body>
-
 </html>

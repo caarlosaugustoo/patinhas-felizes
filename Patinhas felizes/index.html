@@ -1,153 +1,277 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patinhas Felizes | Início</title>
+    <title>Patinhas Felizes | Adoção Responsável</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header class="cabecalho-principal">
+<header>
+    <div class="container navbar">
 
-        <div class="logo">
+        <a href="index.html" class="logo">
             🐾 Patinhas Felizes
-        </div>
+        </a>
 
-        <nav class="menu-navegacao">
-            <a href="index.html" class="ativo">Início</a>
-            <a href="galeria.html">Quero Adotar</a>
-            <a href="pet.html">Perfil do Pet</a>
-            <a href="adotar.html">Formulário</a>
-            <a href="ajudar.html">Como Ajudar</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Pets</a></li>
+                <li><a href="adotar.html">Adotar</a></li>
+                <li><a href="ajudar.html">Ajudar</a></li>
+            </ul>
         </nav>
 
-    </header>
+    </div>
+</header>
 
-    <section class="hero-banner">
+<main>
 
-        <h1>Encontre um novo melhor amigo</h1>
+    <!-- HERO -->
 
-        <p>
-            Adotar é um ato de amor. Conheça os animais disponíveis
-            para adoção e transforme uma vida.
-        </p>
+    <section class="hero">
 
-        <br>
+        <div class="container hero-content">
 
-        <a href="galeria.html" class="botao-link">
-            Conhecer os Pets
-        </a>
+            <div class="hero-text">
+
+                <span class="badge">
+                    ❤️ Mais de 500 adoções realizadas
+                </span>
+
+                <h1>
+                    Um novo lar pode mudar uma vida.
+                </h1>
+
+                <p>
+                    Conectamos cães e gatos resgatados a famílias responsáveis,
+                    oferecendo uma segunda chance para quem mais precisa.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="galeria.html" class="btn">
+                        Conhecer os Pets
+                    </a>
+
+                    <a href="ajudar.html" class="btn btn-outline">
+                        Quero Ajudar
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=900"
+                    alt="Cachorro feliz">
+
+            </div>
+
+        </div>
 
     </section>
 
-    <main class="grid-home-container">
+    <!-- ESTATÍSTICAS -->
 
-        <section>
+    <section>
 
-            <h2>Quem Somos</h2>
+        <div class="container">
 
-            <br>
+            <div class="grid grid-4">
 
-            <p>
-                O Patinhas Felizes é um projeto que incentiva a adoção
-                responsável de cães e gatos resgatados.
-            </p>
+                <article class="card">
+                    <h2>500+</h2>
+                    <p>Adoções realizadas</p>
+                </article>
 
-            <br>
+                <article class="card">
+                    <h2>120+</h2>
+                    <p>Animais disponíveis</p>
+                </article>
 
-            <p>
-                Nosso objetivo é conectar pessoas apaixonadas por animais
-                aos pets que procuram um novo lar.
-            </p>
+                <article class="card">
+                    <h2>80+</h2>
+                    <p>Voluntários ativos</p>
+                </article>
 
-            <br>
-
-            <h3>Como funciona?</h3>
-
-            <br>
-
-            <p>
-                Navegue pela galeria, conheça cada pet, veja sua história
-                e preencha o formulário para iniciar o processo de adoção.
-            </p>
-
-            <br>
-
-            <a href="galeria.html" class="botao-link">
-                Ver Animais
-            </a>
-
-        </section>
-
-        <aside class="barra-avisos">
-
-            <h3>Avisos</h3>
-
-            <div class="card-aviso">
-
-                <h4>Feira de Adoção</h4>
-
-                <p>
-                    Todo primeiro sábado do mês acontece nossa feira de
-                    adoção no campus.
-                </p>
+                <article class="card">
+                    <h2>10</h2>
+                    <p>Anos de atuação</p>
+                </article>
 
             </div>
-
-            <div class="card-aviso">
-
-                <h4>Voluntários</h4>
-
-                <p>
-                    Estamos procurando voluntários para ajudar nos
-                    cuidados dos animais.
-                </p>
-
-            </div>
-
-            <div class="card-aviso">
-
-                <h4>Doações</h4>
-
-                <p>
-                    Aceitamos ração, medicamentos, cobertores e produtos
-                    de higiene.
-                </p>
-
-            </div>
-
-            <br>
-
-            <a href="ajudar.html" class="botao-link">
-                Saiba Como Ajudar
-            </a>
-
-        </aside>
-
-    </main>
-
-    <footer class="rodape-principal">
-
-        <p>
-            © 2026 Patinhas Felizes - Todos os direitos reservados.
-        </p>
-
-        <div class="links-rodape">
-
-            <a href="index.html">Início</a> |
-
-            <a href="galeria.html">Galeria</a> |
-
-            <a href="adotar.html">Adotar</a>
 
         </div>
 
-    </footer>
+    </section>
+
+    <!-- QUEM SOMOS -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Quem Somos</h2>
+
+                <p>
+                    Uma iniciativa dedicada ao bem-estar animal e à adoção responsável.
+                </p>
+
+            </div>
+
+            <div class="grid grid-2">
+
+                <div class="card">
+
+                    <h3>Nossa Missão</h3>
+
+                    <p>
+                        Resgatar, cuidar e encontrar lares amorosos para cães e gatos
+                        em situação de abandono, promovendo a adoção consciente.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Nosso Compromisso</h3>
+
+                    <p>
+                        Garantir que cada animal receba os cuidados necessários e seja
+                        encaminhado para famílias preparadas para oferecer amor,
+                        proteção e responsabilidade.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COMO FUNCIONA -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Como Funciona</h2>
+
+                <p>
+                    Adotar é simples e pode transformar vidas.
+                </p>
+
+            </div>
+
+            <div class="grid grid-3">
+
+                <article class="card">
+
+                    <h3>1. Escolha um Pet</h3>
+
+                    <p>
+                        Navegue pelos perfis dos animais e encontre aquele que combina com você.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>2. Preencha o Formulário</h3>
+
+                    <p>
+                        Conte um pouco sobre você e seu ambiente para adoção.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>3. Leve um Amigo para Casa</h3>
+
+                    <p>
+                        Após aprovação, você poderá receber seu novo companheiro.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CHAMADA -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="notice">
+
+                <h2>
+                    Existem dezenas de animais esperando por uma família.
+                </h2>
+
+                <p>
+                    Sua decisão pode mudar completamente a vida de um pet.
+                </p>
+
+                <br>
+
+                <a href="galeria.html" class="btn">
+                    Ver Animais Disponíveis
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <h3>🐾 Patinhas Felizes</h3>
+
+            <p>
+                Promovendo adoções responsáveis e transformando vidas.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="index.html">Início</a>
+            <a href="galeria.html">Pets</a>
+            <a href="adotar.html">Adotar</a>
+            <a href="ajudar.html">Ajudar</a>
+
+        </div>
+
+    </div>
+
+</footer>
 
 </body>
-
 </html>

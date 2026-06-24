@@ -1,152 +1,195 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
 
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patinhas Felizes | Galeria</title>
+    <title>Pets Disponíveis | Patinhas Felizes</title>
 
-    <link rel="stylesheet" href="style.css">
+```
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+```
+
 </head>
-
 <body>
 
-<header class="cabecalho-principal">
+<header>
+    <div class="container navbar">
 
-    <div class="logo">
+```
+    <a href="index.html" class="logo">
         🐾 Patinhas Felizes
-    </div>
+    </a>
 
-    <nav class="menu-navegacao">
-        <a href="index.html">Início</a>
-        <a href="galeria.html" class="ativo">Quero Adotar</a>
-        <a href="pet.html">Perfil do Pet</a>
-        <a href="adotar.html">Formulário</a>
-        <a href="ajudar.html">Como Ajudar</a>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="galeria.html">Pets</a></li>
+            <li><a href="adotar.html">Adotar</a></li>
+            <li><a href="ajudar.html">Ajudar</a></li>
+        </ul>
     </nav>
+
+</div>
+```
 
 </header>
 
-<main class="container-geral">
+<main>
 
-    <section class="topo-pagina">
+```
+<section>
 
-        <h1>Pets Disponíveis</h1>
+    <div class="container">
 
-        <p>
-            Conheça alguns dos nossos animais que aguardam por um novo lar.
-        </p>
+        <div class="section-title">
+            <h2>Encontre Seu Novo Melhor Amigo</h2>
 
-    </section>
+            <p>
+                Todos os nossos animais foram resgatados e aguardam uma família cheia de amor.
+            </p>
+        </div>
 
-    <section class="grid-galeria-pets">
+        <div class="grid grid-3">
 
-        <!-- PET 1 -->
+            <article class="card pet-card">
 
-        <article class="card-pet">
-
-            <div class="foto-placeholder">
-                🐶 Foto do Pipoca
-            </div>
-
-            <div class="info-pet">
+                <img src="img/pipoca.jpg" alt="Pipoca">
 
                 <h3>Pipoca</h3>
 
-                <p><strong>Idade:</strong> 2 anos</p>
-
-                <p><strong>Porte:</strong> Médio</p>
-
-                <p>
-                    Muito brincalhão e cheio de energia.
+                <p class="pet-info">
+                    Macho • 2 anos • Porte Médio
                 </p>
 
-                <a href="pet.html" class="botao-link">
+                <a href="pet.html" class="btn">
                     Ver Perfil
                 </a>
 
-            </div>
+            </article>
 
-        </article>
+            <article class="card pet-card">
 
-        <!-- PET 2 -->
+                <img src="img/luna.jpg" alt="Luna">
 
-        <article class="card-pet">
+                <h3>Luna</h3>
 
-            <div class="foto-placeholder">
-                🐱 Foto da Mia
-            </div>
-
-            <div class="info-pet">
-
-                <h3>Mia</h3>
-
-                <p><strong>Idade:</strong> 1 ano</p>
-
-                <p><strong>Porte:</strong> Pequeno</p>
-
-                <p>
-                    Muito dócil e gosta de carinho.
+                <p class="pet-info">
+                    Fêmea • 1 ano • Porte Pequeno
                 </p>
 
-                <a href="pet.html" class="botao-link">
+                <a href="pet.html" class="btn">
                     Ver Perfil
                 </a>
 
-            </div>
+            </article>
 
-        </article>
+            <article class="card pet-card">
 
-        <!-- PET 3 -->
-
-        <article class="card-pet">
-
-            <div class="foto-placeholder">
-                🐶 Foto do Thor
-            </div>
-
-            <div class="info-pet">
+                <img src="img/thor.jpg" alt="Thor">
 
                 <h3>Thor</h3>
 
-                <p><strong>Idade:</strong> 4 anos</p>
-
-                <p><strong>Porte:</strong> Grande</p>
-
-                <p>
-                    Calmo, obediente e muito companheiro.
+                <p class="pet-info">
+                    Macho • 3 anos • Porte Grande
                 </p>
 
-                <a href="pet.html" class="botao-link">
+                <a href="pet.html" class="btn">
                     Ver Perfil
                 </a>
 
-            </div>
+            </article>
 
-        </article>
+            <article class="card pet-card">
 
-    </section>
+                <img src="img/mel.jpg" alt="Mel">
+
+                <h3>Mel</h3>
+
+                <p class="pet-info">
+                    Fêmea • 4 anos • Porte Médio
+                </p>
+
+                <a href="pet.html" class="btn">
+                    Ver Perfil
+                </a>
+
+            </article>
+
+            <article class="card pet-card">
+
+                <img src="img/simba.jpg" alt="Simba">
+
+                <h3>Simba</h3>
+
+                <p class="pet-info">
+                    Macho • 8 meses • Porte Pequeno
+                </p>
+
+                <a href="pet.html" class="btn">
+                    Ver Perfil
+                </a>
+
+            </article>
+
+            <article class="card pet-card">
+
+                <img src="img/nina.jpg" alt="Nina">
+
+                <h3>Nina</h3>
+
+                <p class="pet-info">
+                    Fêmea • 2 anos • Porte Médio
+                </p>
+
+                <a href="pet.html" class="btn">
+                    Ver Perfil
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+```
 
 </main>
 
-<footer class="rodape-principal">
+<footer>
 
-    <p>
-        © 2026 Patinhas Felizes - Todos os direitos reservados.
-    </p>
+```
+<div class="container footer-content">
 
-    <div class="links-rodape">
+    <div>
 
-        <a href="index.html">Início</a> |
+        <h3>🐾 Patinhas Felizes</h3>
 
-        <a href="galeria.html">Galeria</a> |
-
-        <a href="adotar.html">Adotar</a>
+        <p>
+            Transformando vidas através da adoção responsável.
+        </p>
 
     </div>
+
+    <div class="footer-links">
+
+        <a href="index.html">Início</a>
+        <a href="galeria.html">Pets</a>
+        <a href="adotar.html">Adotar</a>
+        <a href="ajudar.html">Ajudar</a>
+
+    </div>
+
+</div>
+```
 
 </footer>
 
 </body>
-
 </html>
