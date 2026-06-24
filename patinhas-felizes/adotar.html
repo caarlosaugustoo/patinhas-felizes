@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Adoção | Patinhas Felizes</title>
+    <meta name="description" content="Preencha o formulário de adoção responsável da Patinhas Felizes e dê um lar a um animal resgatado.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ── HEADER ───────────────────────────────────────────── -->
+<header>
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+            🐾 Patinhas Felizes
+        </a>
+
+        <nav aria-label="Menu principal">
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Pets</a></li>
+                <li><a href="adotar.html" class="active">Adotar</a></li>
+                <li><a href="ajudar.html">Ajudar</a></li>
+            </ul>
+        </nav>
+
+        <a href="galeria.html" class="btn btn-primary nav-cta">
+            Ver Pets
+        </a>
+
+    </div>
+</header>
+
+<main>
+
+    <!-- ── PAGE HERO ─────────────────────────────────────── -->
+    <section class="page-hero">
+        <div class="container">
+            <span class="eyebrow">Adoção responsável</span>
+            <h1>Formulário de Adoção</h1>
+            <p>
+                Preencha as informações abaixo com cuidado. Elas nos ajudam a
+                garantir o melhor para o animal e para a sua família.
+            </p>
+        </div>
+    </section>
+
+    <!-- ── FORMULÁRIO ────────────────────────────────────── -->
+    <section class="section">
+        <div class="container">
+
+            <div class="form-wrapper">
+
+                <form action="#" method="post" novalidate>
+
+                    <!-- Dados pessoais -->
+                    <p class="form-section-title">Dados Pessoais</p>
+
+                    <div class="grid grid-2">
+
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone / WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idade">Idade</label>
+                            <input type="number" id="idade" name="idade" placeholder="Sua idade" min="18" max="100" required>
+                        </div>
+
+                    </div>
+
+                    <!-- Endereço -->
+                    <p class="form-section-title">Endereço</p>
+
+                    <div class="form-group">
+                        <label for="endereco">Endereço Completo</label>
+                        <input type="text" id="endereco" name="endereco" placeholder="Rua, número, bairro" required>
+                    </div>
+
+                    <div class="grid grid-2">
+
+                        <div class="form-group">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="estado">Estado</label>
+                            <select id="estado" name="estado" required>
+                                <option value="" disabled selected>Selecione o estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <!-- Moradia -->
+                    <p class="form-section-title">Sobre sua Moradia</p>
+
+                    <div class="grid grid-2">
+
+                        <div class="form-group">
+                            <label for="moradia">Tipo de Moradia</label>
+                            <select id="moradia" name="moradia" required>
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="casa">Casa</option>
+                                <option value="apartamento">Apartamento</option>
+                                <option value="sitio">Sítio</option>
+                                <option value="chacara">Chácara</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="quintal">Possui quintal?</label>
+                            <select id="quintal" name="quintal" required>
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="sim-cercado">Sim, cercado</option>
+                                <option value="sim-parcial">Sim, parcialmente cercado</option>
+                                <option value="nao">Não</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="criancas">Há crianças em casa?</label>
+                            <select id="criancas" name="criancas" required>
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="nao">Não</option>
+                                <option value="sim-maiores">Sim, maiores de 8 anos</option>
+                                <option value="sim-menores">Sim, menores de 8 anos</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="animais">Possui outros animais?</label>
+                            <select id="animais" name="animais" required>
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="nao">Não</option>
+                                <option value="sim-caes">Sim, cães</option>
+                                <option value="sim-gatos">Sim, gatos</option>
+                                <option value="sim-ambos">Sim, cães e gatos</option>
+                                <option value="sim-outros">Sim, outros animais</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <!-- Motivação -->
+                    <p class="form-section-title">Sobre a Adoção</p>
+
+                    <div class="form-group">
+                        <label for="pet">Animal de interesse (opcional)</label>
+                        <input type="text" id="pet" name="pet" placeholder="Ex: Pipoca, Luna… ou deixe em branco se ainda não decidiu">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="motivo">Por que deseja adotar?</label>
+                        <textarea id="motivo" name="motivo" rows="5" placeholder="Conte um pouco sobre sua rotina, por que quer adotar e como pretende cuidar do pet..." required></textarea>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary btn-large">
+                            Enviar Solicitação de Adoção
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- ── FOOTER ───────────────────────────────────────────── -->
+<footer>
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <h3>🐾 Patinhas Felizes</h3>
+                <p>Promovendo adoções responsáveis e transformando vidas.</p>
+            </div>
+
+            <nav class="footer-links" aria-label="Links do rodapé">
+                <a href="index.html">Início</a>
+                <a href="galeria.html">Pets</a>
+                <a href="adotar.html">Adotar</a>
+                <a href="ajudar.html">Ajudar</a>
+            </nav>
+
+        </div>
+
+        <p class="footer-copy">
+            © 2025 Patinhas Felizes · Projeto Acadêmico · Todos os direitos reservados.
+        </p>
+
+    </div>
+</footer>
+
+</body>
+</html>
