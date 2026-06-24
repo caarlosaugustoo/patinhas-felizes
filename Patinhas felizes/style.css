@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{
+background:#f4f7f5;
+color:#333;
+display:flex;
+flex-direction:column;
+min-height:100vh;
+}
+.cabecalho-principal{
+background:#2e7d32;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+position:sticky;
+top:0;
+z-index:100;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+.logo{color:#fff;font-size:28px;font-weight:bold;}
+.menu-navegacao{display:flex;gap:18px;flex-wrap:wrap;}
+.menu-navegacao a{
+color:#fff;
+text-decoration:none;
+padding:10px 16px;
+border-radius:8px;
+transition:.3s;
+}
+.menu-navegacao a:hover,.ativo{background:#1b5e20;}
+.hero-banner{
+background:linear-gradient(135deg,#81c784,#66bb6a);
+color:#fff;
+text-align:center;
+padding:90px 30px;
+}
+.hero-banner h1{font-size:42px;margin-bottom:20px;}
+.hero-banner p{font-size:20px;max-width:700px;margin:auto;}
+.botao-link{
+display:inline-block;
+margin-top:20px;
+background:#2e7d32;
+color:#fff;
+text-decoration:none;
+padding:12px 25px;
+border-radius:8px;
+transition:.3s;
+font-weight:bold;
+}
+.botao-link:hover{background:#1b5e20;transform:translateY(-3px);box-shadow:0 6px 15px rgba(0,0,0,.2);}
+.container-geral{width:90%;max-width:1200px;margin:40px auto;}
+.topo-pagina{text-align:center;margin-bottom:40px;}
+.topo-pagina h1{color:#2e7d32;margin-bottom:15px;}
+.grid-home-container{display:grid;grid-template-columns:2fr 1fr;gap:35px;width:90%;max-width:1200px;margin:50px auto;}
+.barra-avisos,.ficha-rapida,.biografia-detalhada,.container-formulario,.card-ajuda{
+background:#fff;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+border-radius:12px;
+}
+.barra-avisos{padding:25px;}
+.card-aviso{background:#f8f8f8;padding:18px;border-left:6px solid #2e7d32;margin-top:20px;border-radius:8px;}
+.grid-galeria-pets{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;}
+.card-pet{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.08);transition:.3s;}
+.card-pet:hover,.card-ajuda:hover{transform:translateY(-6px);}
+.foto-placeholder{height:220px;background:#dcdcdc;display:flex;justify-content:center;align-items:center;font-size:22px;}
+.info-pet{padding:20px;}
+.info-pet h3{color:#2e7d32;margin-bottom:10px;}
+.info-pet p{margin-bottom:8px;}
+.flex-perfil-container{display:flex;gap:50px;flex-wrap:wrap;width:90%;max-width:1200px;margin:40px auto;}
+.foto-lateral{flex:1;}
+.foto-grande{height:350px;background:#d7d7d7;border-radius:12px;display:flex;justify-content:center;align-items:center;font-size:26px;}
+.ficha-rapida{margin-top:20px;padding:20px;}
+.biografia-detalhada{flex:2;padding:25px;}
+.biografia-detalhada ul{margin-left:20px;}
+.caixa-acao{margin-top:30px;background:#e8f5e9;padding:25px;border-radius:10px;}
+.container-formulario{width:90%;max-width:700px;margin:40px auto;padding:30px;}
+fieldset{border:1px solid #ddd;padding:20px;border-radius:10px;margin-bottom:25px;}
+legend{color:#2e7d32;padding:0 10px;}
+.grupo-campo{display:flex;flex-direction:column;margin-bottom:18px;}
+.grupo-campo label{margin-bottom:8px;font-weight:600;}
+.grupo-campo input,.grupo-campo select,.grupo-campo textarea{
+padding:12px;border:2px solid #ddd;border-radius:8px;outline:none;transition:.3s;
+}
+.grupo-campo input:focus,.grupo-campo select:focus,.grupo-campo textarea:focus{border-color:#2e7d32;}
+.botao-enviar{
+width:100%;background:#2e7d32;color:#fff;border:none;padding:15px;border-radius:8px;cursor:pointer;font-size:16px;font-weight:bold;transition:.3s;
+}
+.botao-enviar:hover{background:#1b5e20;}
+.flex-ajuda-cards{display:flex;gap:25px;flex-wrap:wrap;}
+.card-ajuda{flex:1 1 300px;padding:25px;}
+.rodape-principal{margin-top:auto;background:#1f1f1f;color:#fff;text-align:center;padding:35px;}
+.links-rodape{margin-top:15px;}
+.links-rodape a{color:#81c784;text-decoration:none;}
+.links-rodape a:hover{text-decoration:underline;}
+@media(max-width:900px){
+.grid-home-container{grid-template-columns:1fr;}
+.flex-perfil-container{flex-direction:column;}
+.cabecalho-principal{flex-direction:column;gap:20px;}
+.hero-banner h1{font-size:32px;}
+}
