@@ -72,7 +72,7 @@ https://caarlosaugustoo.github.io/Sistema-de-adocao-e-resgate-de-animais/
 
 **Professor:** Alexandre Cajazeiras
 
-**Aluno:** Carlos Augusto de Sousa Ferreira Junior
+**Alunos:** Carlos Augusto, Victor Emanuel, Diogo farias e Marcos Danilo
 
 ## 📸 Demonstração
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ec5407a4-cd8d-4024-882a-3dfbe8e90886" />]
@@ -82,11 +82,15 @@ https://caarlosaugustoo.github.io/Sistema-de-adocao-e-resgate-de-animais/
 
 
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-**Carlos Augusto de Sousa Ferreira Junior**
+**Carlos Augusto de Sousa Ferreira Junior
+Victor Emanuel de Santana Castro
+Diogo Farias da Mota Costa
+Marcos Danilo**
 
 GitHub: https://github.com/caarlosaugustoo
+GitHub: https://github.com/VictorEmanuel29
 
 ---
 
